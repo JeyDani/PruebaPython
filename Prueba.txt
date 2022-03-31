@@ -1,0 +1,9 @@
+""" INICIO DEL ARCHIVO """
+  url='https://blog.artegrafico.net'
+  r=solicitudes.get(url,flujo=Verdadero)
+  #print(r.content[:10:]) #Visualiza el codigo de la pagina web
+  #print(r.codificiacion)
+  imprimir (r.texto)
+  #imprimir(r)
+  "print(r.codigo_estado)
+""" FIN DEL ARCHIVO """
